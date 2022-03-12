@@ -1,0 +1,130 @@
+body{
+    background: linear-gradient(90deg, rgba(246,163,10,1) 25%, rgba(250,214,45,1)  100%);
+    font-weight: 600;
+}
+.body-change{
+    background: black;
+    color: white;
+    font-weight: 600;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    text-align: left;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 20vw;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px 25px;
+}
+.nav-calc{
+    background-color: black;
+    background-image: url(../img/Pure-Honey-PNG-Images-HD.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
+    box-shadow: 0 14px 28px rgba(255, 250, 250, 0.637), 0 10px 10px rgba(255, 253, 253, 0.829);
+}
+.btn-change{
+    border: none;
+    height: 40px;
+    background-color: rgba(250,214,45,1);
+    font-weight: 900;
+    border-radius: 20px;
+    margin: 20px;
+    align-self: flex-end;
+}
+.our-honey{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+.our-honey img{
+    width: 600px;
+    height: 400px;
+}
+.our-honey p{
+    margin: 5px 30px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 7px;
+}
+.our-honey p:hover{
+    transition: 0.5s;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.features{
+    display: flex;
+    margin: 30px 30px;
+    font-size: 20px;
+}
+.features p{
+    text-align: justify;
+    padding: 15px;
+}
+.features img{
+    width: 400px;
+    height: 400px;
+}
+.characteristic:hover{
+    transition: 0.5s;
+    box-shadow: 0 14px 70px rgba(0,0,0,0.25), 0 14px 28px rgba(0,0,0,0.22);
+}
+.product{
+    margin: 15px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.product img{
+    border: white 2px dashed;
+    border-radius: 25px;
+}
+.like{
+    background-image: url('../img/like.png');
+}
+.like2{
+    background-image: url('../img/like.png');
+}
+.dislike{
+    background-image: url('../img/dislike.png');
+}
+.img-form{
+    display: flex;
+}
+.img-form img{
+    width: 400px;
+    height: 500px;
+}
+form input{
+    margin: 25px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+form select{
+    margin: 25px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+}
+.btn-promo{
+    margin: 25px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+}
